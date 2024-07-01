@@ -38,8 +38,8 @@ def listar():
     print(orden)
     agr=orden
     for i in reg_orden:
-        agr += f"{i[0]:20s}"
-        agr += f"{i[1]:40d}"
+        agr += f"{i[0]:15s}"
+        agr += f"{i[1]:30d}"
         agr += f"{i[2]:15d}"
         agr += f"{i[3]:15d}"
         agr += f"{i[4]:10d}"
